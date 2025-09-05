@@ -29,7 +29,12 @@ const projects = [
     description: "Forro mineral para ambiente comercial",
     image: "/commercial-mineral-fiber-ceiling-in-office-space.png",
   },
-  
+  {
+    id: 5,
+    title: "Sanca com iluminação",
+    description: "Sanca de drywall com iluminação embutida",
+    image: "/sancaconcluida.png",
+  },
 ]
 
 export default function ProjectCarousel() {

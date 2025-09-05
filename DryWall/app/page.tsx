@@ -65,10 +65,10 @@ export default function HomePage() {
     },
     {
       name: "Ana Costa",
-      text: "Nichos perfeitos e acabamento impecável. Superou todas as minhas expectativas!",
+      text: "Sancas perfeitas e acabamento impecável. Superou todas as minhas expectativas!",
       rating: 5,
-      serviceImage: "/custom-drywall-niches-bedroom-design.png",
-      serviceAlt: "Nichos personalizados de drywall em quarto",
+      serviceImage: "sanca.png",
+      serviceAlt: "Sanca personalizada de drywall em sala de estar",
     },
   ]
 
@@ -106,7 +106,7 @@ export default function HomePage() {
             </a>
             <Button className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg">
               <MessageCircle className="h-4 w-4 mr-2" />
-              <a href="https://wa.me/5562985276028">WhatsApp</a>
+              <a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o.">WhatsApp</a>
             </Button>
           </nav>
         </div>
@@ -136,7 +136,7 @@ export default function HomePage() {
                 className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg"
               >
                 <MessageCircle className="h-5 w-5 mr-2" />
-                Solicitar Orçamento
+                <><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> Solicitar Orçamento</a></>
               </Button>
               <Button size="lg" variant="outline" className="border-blue-200 hover:bg-blue-50 bg-transparent">
                 <Phone className="h-5 w-5 mr-2" />
@@ -155,7 +155,7 @@ export default function HomePage() {
               Serviços Especializados
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Soluções inteligentes em drywall
+              Soluções inteligentes em gesso drywall
             </p>
           </div>
 
@@ -283,20 +283,21 @@ export default function HomePage() {
                     <div className="h-10 w-10 bg-gradient-to-br from-blue-500/10 to-cyan-400/10 rounded-lg flex items-center justify-center mr-4">
                       <Phone className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span><a href="tel:5562985276028"> </a>(62) 98527-6028</span>
+                    <span><a href="tel:5562985276028"> (62) 98527-6028</a></span>
                   </div>
                   
                   <div className="flex items-center">
                     <div className="h-10 w-10 bg-gradient-to-br from-blue-500/10 to-cyan-400/10 rounded-lg flex items-center justify-center mr-4">
                       <MapPin className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span>Goiânia, Go - Atendemos toda a região metropolitana</span>
+                    <span>Goiânia, Go - Atendemos Goiânia e toda a região metropolitana</span>
                   </div>
                 </div>
                 <div className="mt-8">
                   <h4 className="font-semibold text-foreground mb-4">Horário de Atendimento</h4>
                   <p className="text-muted-foreground">Segunda a Sexta: 8h às 18h</p>
                   <p className="text-muted-foreground">Sábado: 8h às 12h</p>
+                  <p className="text-muted-foreground">Domingo: Fechado</p>
                 </div>
               </div>
             </div>
@@ -343,7 +344,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Contato</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="https://wa.me/5562985276028">(62) 98527-6028</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> (62) 98527-6028</a></li>
                 <li>Goiânia, Go</li>
               </ul>
             </div>
