@@ -91,7 +91,7 @@ export default function HomePage() {
                 Inovar
               </span>
               <span className="text-xl font-bold text-foreground ml-1">Drywall</span>
-              <div className="text-xs text-muted-foreground font-medium tracking-wider">TECH SOLUTIONS</div>
+              
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -106,7 +106,7 @@ export default function HomePage() {
             </a>
             <Button className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg">
               <MessageCircle className="h-4 w-4 mr-2" />
-              WhatsApp
+              <a href="https://wa.me/5562985276028">WhatsApp</a>
             </Button>
           </nav>
         </div>
@@ -118,20 +118,17 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(6,182,212,0.1),transparent_50%)]"></div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div id="home" className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-6 bg-gradient-to-r from-blue-500/10 to-cyan-400/10 text-blue-600 border-blue-200 shadow-sm">
-              <Cpu className="h-3 w-3 mr-1" />
-              Tecnologia Avançada em Gesso Acartonado
-            </Badge>
+           
 
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
-              Inovação e Tecnologia em
+              Inovação e experiência em
               <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent"> Drywall</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-              Soluções inteligentes em gesso acartonado com tecnologia de ponta. Paredes, forros, sancas, nichos e forro
-              mineral com precisão digital e acabamento perfeito.
+              Soluções inteligentes em gesso acartonado. Paredes, forros, sancas, nichos e forro
+              mineral com precisão e acabamento perfeito.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -143,7 +140,7 @@ export default function HomePage() {
               </Button>
               <Button size="lg" variant="outline" className="border-blue-200 hover:bg-blue-50 bg-transparent">
                 <Phone className="h-5 w-5 mr-2" />
-                (11) 99999-9999
+                <a href="tel:+5562985276028">(62) 98527-6028</a>
               </Button>
             </div>
           </div>
@@ -155,10 +152,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Serviços Tecnológicos Especializados
+              Serviços Especializados
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Soluções inteligentes em drywall com tecnologia avançada e precisão digital
+              Soluções inteligentes em drywall
             </p>
           </div>
 
@@ -196,27 +193,20 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-gradient-to-r from-blue-500/10 to-cyan-400/10 text-blue-600 border-blue-200">
-                <Sparkles className="h-3 w-3 mr-1" />
-                Sobre a Inovar Drywall
-              </Badge>
+              
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Inovação e Tecnologia em Drywall há Mais de 10 Anos
+                Experiência em Drywall 
+                <p> há mais de 20 Anos</p>
               </h2>
               <p className="text-lg text-muted-foreground mb-6 text-pretty">
-                Pioneiros em soluções tecnológicas de gesso acartonado, combinamos experiência tradicional com inovação
-                digital. Nossa equipe utiliza ferramentas de precisão e técnicas avançadas para garantir resultados
-                excepcionais.
+                Pioneiros em soluções em gesso acartonado combinados com a experiência tradicional.
               </p>
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center">
                   <div className="h-2 w-2 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mr-3"></div>
-                  <span>Mais de 500 projetos</span>
+                  <span>Mais de 700 projetos</span>
                 </div>
-                <div className="flex items-center">
-                  <div className="h-2 w-2 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mr-3"></div>
-                  <span>Tecnologia de ponta</span>
-                </div>
+                
                 <div className="flex items-center">
                   <div className="h-2 w-2 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mr-3"></div>
                   <span>Equipe certificada</span>
@@ -244,7 +234,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">O Que Nossos Clientes Dizem</h2>
             <p className="text-lg text-muted-foreground">
-              Depoimentos reais de clientes satisfeitos com nossa tecnologia
+              Depoimentos reais de clientes satisfeitos com nosso serviço
             </p>
           </div>
 
@@ -285,8 +275,7 @@ export default function HomePage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Entre em Contato Conosco</h2>
               <p className="text-lg text-muted-foreground">Pronto para inovar seu espaço? Fale conosco agora mesmo!</p>
             </div>
-
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-1 gap-12">
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-6">Informações de Contato</h3>
                 <div className="space-y-4">
@@ -294,75 +283,22 @@ export default function HomePage() {
                     <div className="h-10 w-10 bg-gradient-to-br from-blue-500/10 to-cyan-400/10 rounded-lg flex items-center justify-center mr-4">
                       <Phone className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span>(11) 99999-9999</span>
+                    <span><a href="tel:5562985276028"> </a>(62) 98527-6028</span>
                   </div>
-                  <div className="flex items-center">
-                    <div className="h-10 w-10 bg-gradient-to-br from-blue-500/10 to-cyan-400/10 rounded-lg flex items-center justify-center mr-4">
-                      <Mail className="h-5 w-5 text-blue-600" />
-                    </div>
-                    <span>contato@inovardrywall.com.br</span>
-                  </div>
+                  
                   <div className="flex items-center">
                     <div className="h-10 w-10 bg-gradient-to-br from-blue-500/10 to-cyan-400/10 rounded-lg flex items-center justify-center mr-4">
                       <MapPin className="h-5 w-5 text-blue-600" />
                     </div>
-                    <span>São Paulo, SP - Atendemos toda a região metropolitana</span>
+                    <span>Goiânia, Go - Atendemos toda a região metropolitana</span>
                   </div>
                 </div>
-
                 <div className="mt-8">
                   <h4 className="font-semibold text-foreground mb-4">Horário de Atendimento</h4>
                   <p className="text-muted-foreground">Segunda a Sexta: 8h às 18h</p>
                   <p className="text-muted-foreground">Sábado: 8h às 12h</p>
                 </div>
               </div>
-
-              <Card className="border-border/50 bg-gradient-to-br from-card to-blue-50/30">
-                <CardHeader>
-                  <CardTitle>Solicite um Orçamento</CardTitle>
-                  <CardDescription>Preencha o formulário e entraremos em contato em até 2 horas</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div>
-                    <label className="text-sm font-medium text-foreground">Nome Completo</label>
-                    <input
-                      type="text"
-                      className="w-full mt-1 px-3 py-2 border border-border rounded-md bg-input focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Seu nome completo"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-foreground">Telefone/WhatsApp</label>
-                    <input
-                      type="tel"
-                      className="w-full mt-1 px-3 py-2 border border-border rounded-md bg-input focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="(11) 99999-9999"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-foreground">Tipo de Serviço</label>
-                    <select className="w-full mt-1 px-3 py-2 border border-border rounded-md bg-input focus:outline-none focus:ring-2 focus:ring-blue-500">
-                      <option>Selecione o serviço</option>
-                      <option>Paredes de Drywall</option>
-                      <option>Forros e Sancas</option>
-                      <option>Nichos Decorativos</option>
-                      <option>Forro Mineral</option>
-                      <option>Projeto Completo</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-foreground">Mensagem</label>
-                    <textarea
-                      className="w-full mt-1 px-3 py-2 border border-border rounded-md bg-input focus:outline-none focus:ring-2 focus:ring-blue-500 h-24 resize-none"
-                      placeholder="Descreva seu projeto..."
-                    ></textarea>
-                  </div>
-                  <Button className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg">
-                    <MessageCircle className="h-4 w-4 mr-2" />
-                    Enviar via WhatsApp
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
@@ -390,7 +326,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-muted-foreground text-pretty">
-                Inovação e tecnologia em soluções de drywall com qualidade superior e precisão digital.
+                Experiência e profissionalismo em soluções de drywall com qualidade garantida.
               </p>
             </div>
 
@@ -407,15 +343,14 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Contato</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li>(11) 99999-9999</li>
-                <li>contato@inovardrywall.com.br</li>
-                <li>São Paulo, SP</li>
+                <li><a href="https://wa.me/5562985276028">(62) 98527-6028</a></li>
+                <li>Goiânia, Go</li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-            <p>&copy; 2024 Inovar Drywall. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Inovar Drywall. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

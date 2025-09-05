@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "DryWall Pro - Especialistas em Gesso Acartonado",
+  title: "Inovar DryWall - Especialistas em Gesso Acartonado",
   description:
-    "Instalação profissional de paredes, forros, sancas, nichos e forro mineral em drywall. Qualidade e tecnologia em cada projeto.",
+    "Instalação profissional de paredes, forros, sancas, nichos e forro mineral em drywall. Experiência e profissionalismo em cada projeto.",
   generator: "v0.app",
 }
 

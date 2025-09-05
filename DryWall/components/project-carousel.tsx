@@ -29,12 +29,7 @@ const projects = [
     description: "Forro mineral para ambiente comercial",
     image: "/commercial-mineral-fiber-ceiling-in-office-space.png",
   },
-  {
-    id: 5,
-    title: "Sanca Gesso 3D",
-    description: "Sanca decorativa com efeito tridimensional",
-    image: "/3d-decorative-drywall-molding-ceiling-design.png",
-  },
+  
 ]
 
 export default function ProjectCarousel() {
