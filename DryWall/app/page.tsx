@@ -106,7 +106,7 @@ export default function HomePage() {
             </a>
             <Button className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg">
               <MessageCircle className="h-4 w-4 mr-2" />
-              <a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o.">WhatsApp</a>
+              <a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20venho%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o.">WhatsApp</a>
             </Button>
           </nav>
         </div>
@@ -136,7 +136,7 @@ export default function HomePage() {
                 className="bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 shadow-lg"
               >
                 <MessageCircle className="h-5 w-5 mr-2" />
-                <><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> Solicitar Orçamento</a></>
+                <><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20venho%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> Solicitar Orçamento</a></>
               </Button>
               <Button size="lg" variant="outline" className="border-blue-200 hover:bg-blue-50 bg-transparent">
                 <Phone className="h-5 w-5 mr-2" />
@@ -344,7 +344,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Contato</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> (62) 98527-6028</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5562985276028&text=Ol%C3%A1%2C%20venho%20atrav%C3%A9s%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20seu%20servi%C3%A7o."> (62) 98527-6028</a></li>
                 <li>Goiânia, Go</li>
               </ul>
             </div>
